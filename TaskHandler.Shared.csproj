@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>worldDevourer2009.TaskHandler.Shared</PackageId>
-        <Version>1.0.3</Version>
+        <Version>1.0.5</Version>
         <Authors>worldDevourer2009</Authors>
         <Company>worldDevourer2009</Company>
         <Description>Shared dto's</Description>
