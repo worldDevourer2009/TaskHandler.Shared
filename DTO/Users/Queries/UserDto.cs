@@ -1,3 +1,5 @@
+using System;
+
 namespace TaskHandler.Shared.DTO.Users.Queries;
 
 public class UserDto

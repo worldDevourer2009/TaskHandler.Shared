@@ -8,10 +8,29 @@
         <Description>Shared dto's</Description>
         <PackageOutputPath>..\artifacts\packages</PackageOutputPath>
         <TargetFramework>net9.0</TargetFramework>
+        
+        <IsPackable>true</IsPackable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>TaskHandler.Shared</RootNamespace>
+        <RepositoryUrl>https://github.com/worldDevourer2009/TaskHandler.Shared</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        
+        <PackageOutputPath>..\artifacts\packages</PackageOutputPath>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="bin\Release\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Release\nupkgs\worldDevourer2009.TaskHandler.Shared.1.0.0.nupkg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include=".github\workflows\publish-nuget.yml" />
+    </ItemGroup>
     
 </Project>
