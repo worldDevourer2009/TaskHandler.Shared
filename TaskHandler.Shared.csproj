@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>worldDevourer2009.TaskHandler.Shared</PackageId>
-        <Version>1.0.19</Version>
+        <Version>1.0.22</Version>
         <Authors>worldDevourer2009</Authors>
         <Company>worldDevourer2009</Company>
         <Description>Shared dto's</Description>
@@ -21,9 +21,5 @@
         <RepositoryType>git</RepositoryType>
 
     </PropertyGroup>
-
-    <ItemGroup>
-      <Folder Include="Auth\DTO\Auth\Internal\" />
-    </ItemGroup>
 
 </Project>
