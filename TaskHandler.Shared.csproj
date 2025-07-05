@@ -2,34 +2,28 @@
 
     <PropertyGroup>
         <PackageId>worldDevourer2009.TaskHandler.Shared</PackageId>
-        <Version>1.0.7</Version>
+        <Version>1.0.19</Version>
         <Authors>worldDevourer2009</Authors>
         <Company>worldDevourer2009</Company>
         <Description>Shared dto's</Description>
-        <PackageOutputPath>..\artifacts\packages</PackageOutputPath>
+        <PackageOutputPath>bin/Release/nupkgs/</PackageOutputPath>
         <TargetFramework>net9.0</TargetFramework>
-        
+
         <IsPackable>true</IsPackable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        
+
+        <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>TaskHandler.Shared</RootNamespace>
         <RepositoryUrl>https://github.com/worldDevourer2009/TaskHandler.Shared</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        
-        <PackageOutputPath>..\artifacts\packages</PackageOutputPath>
+
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Auth\" />
-      <Folder Include="bin\Release\" />
-      <Folder Include="Chat\" />
-      <Folder Include="Notifications\" />
-      <Folder Include="Tasks\" />
+      <Folder Include="Auth\DTO\Auth\Internal\" />
     </ItemGroup>
 
-    <ItemGroup>
-      <None Include="bin\Release\nupkgs\worldDevourer2009.TaskHandler.Shared.1.0.0.nupkg" />
-    </ItemGroup>
 </Project>

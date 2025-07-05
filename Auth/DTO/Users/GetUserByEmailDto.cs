@@ -1,3 +1,3 @@
-namespace TaskHandler.Shared.DTO.Users;
+namespace TaskHandler.Shared.Auth.DTO.Users;
 
 public record GetUserByEmailDto(string Email);
